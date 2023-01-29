@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#head
+{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    text-align:left;
+    background-image: linear-gradient(to right,white,black);
+     
+}
+
+#map
+{
+    object-fit: cover;
+    position: absolute; 
+    height: 90vh;
+    min-height: 200px;
+    width: 99.5vw;
+    min-width: 200px;
+    left: 2px;  
+    border: 3px solid;
+    border-color: grey;
+    margin-bottom: 0;
+}
